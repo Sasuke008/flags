@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   text-decoration: none;
+   list-style: none;
+   color: inherit;
+   font-family: "Public Sans" , sans-serif;
+   transition: 0.5s ease-in-out;
+}
+:root{
+    /*86*/
+    --bg-section: #18262F;
+    --bg-btn: #BA4270;
+    --bg-body: #EDF3F8;
+    /* text color*/
+    --main-color: #365368;
+}
+body{
+    background: var(--bg-body);
+    color: var(--main-color);
+    height: 200vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 45px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 40px 100px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+
+}
+.primary-btn{
+    padding: 16px 24.5px 14px 26.5px;
+    border-radius: 30px;
+    background: var(--bg-btn);
+    border: 1px solid transparent;
+    color: #fff;
+}
+.primary-btn:hover{
+    border: 2px solid var(--bg-btn);
+    color: var(--bg-btn);
+    background: transparent;
+}
